@@ -9,7 +9,7 @@ adverb = ['clumsily',
           'commonly',
           'comfortably',
           'compactly']
-adjective = ['tall', 'small', 'wide' 'angry', 'incongruous']
+adjective = ['tall', 'small', 'wide', 'angry', 'incongruous']
 expletive = ['fuck', 'shit', 'arse', 'bum', 'cunt', 'tit']
 noun = ['Baboon',
         'Bactrian Camel',
@@ -28,4 +28,4 @@ noun = ['Baboon',
         'Bavarian Mountain Hound',
         'Beagle']
 
-print 'You %s %s %s %s!' % (random.choice(adverb), random.choice(adjective), random.choice(expletive), random.choice(noun))
+print 'You %s %s %s-%s!' % (random.choice(adverb), random.choice(adjective), random.choice(expletive), random.choice(noun))
